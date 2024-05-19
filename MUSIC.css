@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100;
+    height: 99vh;
+    box-sizing: border-box;
+}
+.xlogo{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-size: 200%;
+    width: 50px;
+    cursor: pointer;
+    font-family: didot;
+    margin-left: 50px;
+    color: #FF6B6B;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+    padding-left: 50px;
+}
+h1{
+    color: #fff;
+    font-size: 25px;
+}
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #B03060;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.card{
+    width: 350px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    margin-top: -100px;
+    margin-top: -10px;
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+    font-size: 20px;
+}
+.card p{
+    text-shadow: 0 0 5px #000;
+    font-size: 15px;
+}
+.intro{
+    font-size: 15px;
+}
+button:hover{
+    background-color: #fff;
+}
+.bg{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    filter: brightness(50%);
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 30px;
+    color: #FF6B6B;
+    font-family: arial black;
+    border-radius: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+.clip{
+    width: 350px;
+    height: 220px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+.clip:hover{
+    transform: translateY(-10px);
+}
+.hana{
+margin-top: -20px;
+}
+.vids{
+    border: 3px solid;
+    border-color:#B03060;
+}
+a:hover{
+    background-color: #fff;
+}
